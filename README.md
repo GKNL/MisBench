@@ -2,7 +2,7 @@
 
 <div align="left">
    <p>
-   <a href='#'><img src='https://img.shields.io/badge/arXiv-ACL2025-b31b1b'></a>
+   <a href='https://arxiv.org/abs/2505.21608'><img src='https://img.shields.io/badge/arXiv-2505.21608-b31b1b'></a>
    <a href='https://huggingface.co/datasets/MisBench/MisBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MisBench-blue'></a>
    <a href='https://github.com/GKNL/MisBench'><img src='https://img.shields.io/badge/GitHub-MisBench-green'></a>
    <!-- <img src='https://img.shields.io/github/stars/your-repo/MisBench?color=green&style=social' /> -->
@@ -13,7 +13,7 @@
 
 **MisBench** is the current largest and most comprehensive benchmark for evaluating LLMs' behaviors and knowledge preferences toward misinformation. Specifically, MisBench consists of **431,113** challenging QA pairs and **10,346,712** pieces of misinformation, which uniquely considers both knowledge-based conflicts and stylistic variations in misinformation. It features diverse textual characteristics, including (1) **misinformation genre** and (2) **language subjectivity/objectivity**, closely mimicking real-world misinformation patterns.
 
-This repository contains the codes for generating misinformation texts and evaluating LLMs upon them. Please check our paper for more details.
+This repository contains the codes for generating misinformation texts and evaluating LLMs upon them. Please check our [paper](https://arxiv.org/abs/2505.21608) for more details.
 
 
 <p align="center">
@@ -219,15 +219,18 @@ Note:
 ## Acknowledge
 Some code implementations are built upon [ConflictBank](https://github.com/zhaochen0110/conflictbank). We sincerely appreciate the efforts for their contributions.
 
-<!-- ## 📜 Citation
+## 📜 Citation
 
 Please cite our paper if you use our dataset:
 
 ```
-@misc{misbench2024,
+@misc{peng2025doesmisinformationaffectlarge,
       title={How does Misinformation Affect Large Language Model Behaviors and Preferences?}, 
-      author={Anonymous},
-      year={2024},
-      journal={arXiv preprint}
+      author={Miao Peng and Nuo Chen and Jianheng Tang and Jia Li},
+      year={2025},
+      eprint={2505.21608},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.21608}, 
 }
-``` -->
+```
