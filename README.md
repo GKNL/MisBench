@@ -224,7 +224,7 @@ Some code implementations are built upon [ConflictBank](https://github.com/zhaoc
 Please cite our paper if you use our dataset:
 
 ```
-@misc{peng2025doesmisinformationaffectlarge,
+@misc{misbench,
       title={How does Misinformation Affect Large Language Model Behaviors and Preferences?}, 
       author={Miao Peng and Nuo Chen and Jianheng Tang and Jia Li},
       year={2025},
