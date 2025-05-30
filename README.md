@@ -221,7 +221,7 @@ Some code implementations are built upon [ConflictBank](https://github.com/zhaoc
 
 ## 📜 Citation
 
-Please cite our paper if you use our dataset:
+If you find MisBench useful for your research and applications, please kindly cite using this BibTeX:
 
 ```
 @misc{misbench,
